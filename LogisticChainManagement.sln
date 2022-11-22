@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisticChainManagement.Web", "LogisticChainManagement.Web\LogisticChainManagement.Web.csproj", "{3DFBF0F5-D514-4276-88F9-BCF43E39717E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A4538585-6B07-4EF4-95C2-542D14922511}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{797328EF-FF37-40D3-A73E-25A35FAC6E6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0652F8A7-A07A-4A93-8B44-C73F70725C83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{BD6F6112-6C52-4CAA-A323-77666FFBA658}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{43E3FAAF-E61D-4834-B46E-D5F7E6436D4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisticChainManagement.Application", "LogisticChainManagement.Application\LogisticChainManagement.Application.csproj", "{6773F36C-E8DE-45F0-81A8-8DF620AE2A37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisticChainManagement.Domain", "LogisticChainManagement.Domain\LogisticChainManagement.Domain.csproj", "{C69118BF-27CC-4D49-97CD-E15428B57B4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogisticChainManagement.Infrastructure", "LogisticChainManagement.Infrastructure\LogisticChainManagement.Infrastructure.csproj", "{7410E33E-8CC1-44EB-BE89-1A4FF5FD68A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DFBF0F5-D514-4276-88F9-BCF43E39717E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFBF0F5-D514-4276-88F9-BCF43E39717E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFBF0F5-D514-4276-88F9-BCF43E39717E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFBF0F5-D514-4276-88F9-BCF43E39717E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6773F36C-E8DE-45F0-81A8-8DF620AE2A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6773F36C-E8DE-45F0-81A8-8DF620AE2A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6773F36C-E8DE-45F0-81A8-8DF620AE2A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6773F36C-E8DE-45F0-81A8-8DF620AE2A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C69118BF-27CC-4D49-97CD-E15428B57B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69118BF-27CC-4D49-97CD-E15428B57B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69118BF-27CC-4D49-97CD-E15428B57B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69118BF-27CC-4D49-97CD-E15428B57B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7410E33E-8CC1-44EB-BE89-1A4FF5FD68A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7410E33E-8CC1-44EB-BE89-1A4FF5FD68A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7410E33E-8CC1-44EB-BE89-1A4FF5FD68A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7410E33E-8CC1-44EB-BE89-1A4FF5FD68A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DFBF0F5-D514-4276-88F9-BCF43E39717E} = {43E3FAAF-E61D-4834-B46E-D5F7E6436D4B}
+		{6773F36C-E8DE-45F0-81A8-8DF620AE2A37} = {A4538585-6B07-4EF4-95C2-542D14922511}
+		{C69118BF-27CC-4D49-97CD-E15428B57B4A} = {797328EF-FF37-40D3-A73E-25A35FAC6E6A}
+		{7410E33E-8CC1-44EB-BE89-1A4FF5FD68A4} = {0652F8A7-A07A-4A93-8B44-C73F70725C83}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6BBB2D0-32DE-48FE-9EC2-0FC8A4A570E0}
+	EndGlobalSection
+EndGlobal
