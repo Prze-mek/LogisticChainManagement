@@ -9,6 +9,8 @@
   <ItemGroup>
     <Folder Include="Interface\" />
     <Folder Include="Model\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Model\" />
   </ItemGroup>
 
 </Project>
